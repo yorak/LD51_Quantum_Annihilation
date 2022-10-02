@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://assets/OpenSans-ExtraBold.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/backgrounds/bubbles.png" type="Texture" id=2]
+[ext_resource path="res://assets/backgrounds/bubblesback.png" type="Texture" id=3]
+[ext_resource path="res://Bubblesfront.gd" type="Script" id=4]
+[ext_resource path="res://assets/backgrounds/LargeParticles2.png" type="Texture" id=5]
+[ext_resource path="res://assets/sounds/PositiveVsNegativeMenu.mp3" type="AudioStream" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 28
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 49
+font_data = ExtResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Bubblesback" type="Sprite" parent="."]
+position = Vector2( 463, 257 )
+texture = ExtResource( 3 )
+
+[node name="Bubblesfront" type="Sprite" parent="."]
+position = Vector2( 463, 257 )
+scale = Vector2( 1, 1.2 )
+texture = ExtResource( 2 )
+script = ExtResource( 4 )
+
+[node name="Particles" type="Sprite" parent="."]
+position = Vector2( 471, 257 )
+texture = ExtResource( 5 )
+script = ExtResource( 4 )
+CIRCLING_SIZE = 30
+SPEED = 1.5
+
+[node name="Label" type="Label" parent="."]
+margin_left = 223.0
+margin_top = 132.0
+margin_right = 666.0
+margin_bottom = 465.0
+custom_fonts/font = SubResource( 1 )
+text = "A game for LD51 jam
+
+Code : yorak
+Art & Sound : Jaawa
+Level design and Math : Rajanu
+
+Thanks for playing!
+Remember to vote"
+align = 1
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 344.0
+margin_top = 49.0
+margin_right = 555.0
+margin_bottom = 117.0
+custom_fonts/font = SubResource( 2 )
+text = "THE END"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+autoplay = true

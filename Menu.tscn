@@ -1,0 +1,103 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://assets/MenuBG.png" type="Texture" id=1]
+[ext_resource path="res://assets/MenuQuit.png" type="Texture" id=2]
+[ext_resource path="res://assets/MenuTitle2.png" type="Texture" id=3]
+[ext_resource path="res://assets/MenuStartHover.png" type="Texture" id=4]
+[ext_resource path="res://assets/MenuStart.png" type="Texture" id=5]
+[ext_resource path="res://assets/MenuQuitHover.png" type="Texture" id=6]
+[ext_resource path="res://Menu.gd" type="Script" id=7]
+[ext_resource path="res://assets/sounds/PositiveVsNegativeMenu.mp3" type="AudioStream" id=8]
+[ext_resource path="res://icon.png" type="Texture" id=9]
+[ext_resource path="res://assets/sad.png" type="Texture" id=10]
+[ext_resource path="res://assets/great.png" type="Texture" id=11]
+[ext_resource path="res://assets/arrow.png" type="Texture" id=12]
+[ext_resource path="res://invicon.png" type="Texture" id=13]
+[ext_resource path="res://assets/xplosion/Blast8.png" type="Texture" id=14]
+[ext_resource path="res://assets/flag.png" type="Texture" id=15]
+[ext_resource path="res://assets/portal.png" type="Texture" id=16]
+[ext_resource path="res://assets/backgrounds/LargeParticles2.png" type="Texture" id=17]
+[ext_resource path="res://Bubblesfront.gd" type="Script" id=18]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 467, 258 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Particles" type="Sprite" parent="."]
+position = Vector2( 472, 259 )
+texture = ExtResource( 17 )
+script = ExtResource( 18 )
+
+[node name="Invicon" type="Sprite" parent="."]
+position = Vector2( 157, 355 )
+scale = Vector2( 1.23438, 1.23438 )
+texture = ExtResource( 13 )
+
+[node name="Icon" type="Sprite" parent="."]
+position = Vector2( 66, 314 )
+scale = Vector2( 1.20313, 1.20313 )
+texture = ExtResource( 9 )
+
+[node name="Blast8" type="Sprite" parent="."]
+position = Vector2( 109, 339 )
+scale = Vector2( 2.00586, 2.00586 )
+texture = ExtResource( 14 )
+
+[node name="Title" type="Sprite" parent="."]
+position = Vector2( 468, 135 )
+scale = Vector2( 1.55, 1.55 )
+texture = ExtResource( 3 )
+
+[node name="QuitButton" type="TextureButton" parent="."]
+margin_left = 397.0
+margin_top = 298.0
+margin_right = 530.0
+margin_bottom = 372.0
+texture_normal = ExtResource( 6 )
+texture_hover = ExtResource( 2 )
+
+[node name="PlayButton" type="TextureButton" parent="."]
+margin_left = 379.0
+margin_top = 219.0
+margin_right = 558.0
+margin_bottom = 293.0
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+autoplay = true
+
+[node name="Sad" type="Sprite" parent="."]
+position = Vector2( 94, 428 )
+texture = ExtResource( 10 )
+
+[node name="Great" type="Sprite" parent="."]
+position = Vector2( 755, 417 )
+texture = ExtResource( 11 )
+
+[node name="Flag" type="Sprite" parent="."]
+position = Vector2( 715, 342 )
+scale = Vector2( 1.96875, 1.96875 )
+texture = ExtResource( 15 )
+
+[node name="Portal" type="Sprite" parent="."]
+position = Vector2( 866, 301 )
+texture = ExtResource( 16 )
+
+[node name="Arrow" type="Sprite" parent="Portal"]
+position = Vector2( -75, 13 )
+rotation = -0.294961
+texture = ExtResource( 12 )
+
+[connection signal="pressed" from="QuitButton" to="." method="_on_QuitButton_pressed"]
+[connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]

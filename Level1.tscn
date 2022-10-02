@@ -1,0 +1,146 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="RectangleShape2D" id=26]
+
+[sub_resource type="RectangleShape2D" id=27]
+extents = Vector2( 14.7, 10 )
+
+[node name="Barriers" type="Node2D"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="NegBarrier" type="StaticBody2D" parent="."]
+position = Vector2( 342, 107 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier"]
+scale = Vector2( 10, 1 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier"]
+margin_left = -97.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="NegBarrier2" type="StaticBody2D" parent="."]
+position = Vector2( 434, 291 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier2"]
+position = Vector2( -46.9999, 0 )
+scale = Vector2( 10, 1 )
+shape = SubResource( 27 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier2"]
+margin_left = -191.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="NegBarrier3" type="StaticBody2D" parent="."]
+position = Vector2( 523, 379 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier3"]
+scale = Vector2( 10, 1 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier3"]
+margin_left = -97.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier" type="StaticBody2D" parent="."]
+position = Vector2( 615, 177 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier"]
+scale = Vector2( 10, 1 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier"]
+margin_left = -97.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="PosBarrier2" type="StaticBody2D" parent="."]
+position = Vector2( 705, 88 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier2"]
+scale = Vector2( 10, 1 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier2"]
+margin_left = -97.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="PosBarrier3" type="StaticBody2D" parent="."]
+position = Vector2( 263, 313 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier3"]
+scale = Vector2( 10, 1 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier3"]
+margin_left = -97.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="PosBarrier4" type="StaticBody2D" parent="."]
+position = Vector2( 174, 402 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier4"]
+scale = Vector2( 10, 1 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier4"]
+margin_left = -97.0
+margin_top = -7.0
+margin_right = 96.0
+margin_bottom = 8.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="PlayerHere" type="Node2D" parent="."]
+position = Vector2( 104, 89 )
+
+[node name="MonsterHere" type="Node2D" parent="."]
+position = Vector2( 802, 403 )
+
+[node name="FlagHere" type="Node2D" parent="."]
+position = Vector2( 865, 451 )
+
+[node name="GoalHere" type="Node2D" parent="."]
+position = Vector2( 28, 24 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/PositiveVsNegative_V2.mp3-633016e7399c1617d6a8d0b26daeab9a.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/PositiveVsNegative_V2.mp3"
+dest_files=[ "res://.import/PositiveVsNegative_V2.mp3-633016e7399c1617d6a8d0b26daeab9a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

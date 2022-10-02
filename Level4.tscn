@@ -1,0 +1,838 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=26]
+
+[node name="Barriers" type="Node2D"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="PosBarrier" type="StaticBody2D" parent="."]
+position = Vector2( 74, 381 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier" type="StaticBody2D" parent="."]
+position = Vector2( 717, 346 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier2" type="StaticBody2D" parent="."]
+position = Vector2( 235, 43 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier2"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier2"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier2" type="StaticBody2D" parent="."]
+position = Vector2( 364, 89 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier2"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier2"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier22" type="StaticBody2D" parent="."]
+position = Vector2( 455, 425 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier22"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier22"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier22" type="StaticBody2D" parent="."]
+position = Vector2( 851, 383 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier22"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier22"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier23" type="StaticBody2D" parent="."]
+position = Vector2( 887, 255 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier23"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier23"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier23" type="StaticBody2D" parent="."]
+position = Vector2( 629, 345 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier23"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier23"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier3" type="StaticBody2D" parent="."]
+position = Vector2( 717, 171 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier3"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier3"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier3" type="StaticBody2D" parent="."]
+position = Vector2( 235, 124 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier3"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier3"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier4" type="StaticBody2D" parent="."]
+position = Vector2( 768, 43 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier4"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier4"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier4" type="StaticBody2D" parent="."]
+position = Vector2( 41, 90 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier4"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier4"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier5" type="StaticBody2D" parent="."]
+position = Vector2( 236, 376 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier5"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier5"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier5" type="StaticBody2D" parent="."]
+position = Vector2( 363, 252 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier5"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier5"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier6" type="StaticBody2D" parent="."]
+position = Vector2( 671, 300 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier6"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier6"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier6" type="StaticBody2D" parent="."]
+position = Vector2( 282, 341 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier6"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier6"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier7" type="StaticBody2D" parent="."]
+position = Vector2( 539, 171 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier7"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier7"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier7" type="StaticBody2D" parent="."]
+position = Vector2( 408, 379 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier7"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier7"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier8" type="StaticBody2D" parent="."]
+position = Vector2( 492, 299 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier8"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier8"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier8" type="StaticBody2D" parent="."]
+position = Vector2( 540, 253 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier8"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier8"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier9" type="StaticBody2D" parent="."]
+position = Vector2( 363, 171 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier9"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier9"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="PosBarrier25" type="StaticBody2D" parent="."]
+position = Vector2( 189, 423 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier25"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier25"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier9" type="StaticBody2D" parent="."]
+position = Vector2( 492, 124 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier9"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier9"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier10" type="StaticBody2D" parent="."]
+position = Vector2( 622, 89 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier10"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier10"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier10" type="StaticBody2D" parent="."]
+position = Vector2( 539, 89 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier10"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier10"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier21" type="StaticBody2D" parent="."]
+position = Vector2( 443, 252 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier21"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier21"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier21" type="StaticBody2D" parent="."]
+position = Vector2( 670, 218 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier21"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier21"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="NegBarrier11" type="StaticBody2D" parent="."]
+position = Vector2( 622, 171 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier11"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier11"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier12" type="StaticBody2D" parent="."]
+position = Vector2( 850, 136 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier12"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier12"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier12" type="StaticBody2D" parent="."]
+position = Vector2( 802, 89 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier12"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier12"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier13" type="StaticBody2D" parent="."]
+position = Vector2( 768, 470 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier13"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier13"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="PosBarrier14" type="StaticBody2D" parent="."]
+position = Vector2( 155, 208 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier14"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier14"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier14" type="StaticBody2D" parent="."]
+position = Vector2( 108, 335 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier14"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier14"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier15" type="StaticBody2D" parent="."]
+position = Vector2( 282, 89 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier15"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier15"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier15" type="StaticBody2D" parent="."]
+position = Vector2( 236, 469 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier15"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier15"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier16" type="StaticBody2D" parent="."]
+position = Vector2( 235, 206 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier16"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier16"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier16" type="StaticBody2D" parent="."]
+position = Vector2( 200, 253 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier16"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier16"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier17" type="StaticBody2D" parent="."]
+position = Vector2( 630, 426 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier17"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier17"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier17" type="StaticBody2D" parent="."]
+position = Vector2( 362, 424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier17"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier17"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier24" type="StaticBody2D" parent="."]
+position = Vector2( 584, 380 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier24"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier24"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier24" type="StaticBody2D" parent="."]
+position = Vector2( 445, 171 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier24"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier24"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier18" type="StaticBody2D" parent="."]
+position = Vector2( 281, 252 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier18"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier18"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier18" type="StaticBody2D" parent="."]
+position = Vector2( 155, 299 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier18"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier18"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier19" type="StaticBody2D" parent="."]
+position = Vector2( 109, 253 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier19"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier19"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier19" type="StaticBody2D" parent="."]
+position = Vector2( 804, 255 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier19"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier19"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PosBarrier20" type="StaticBody2D" parent="."]
+position = Vector2( 852, 301 )
+rotation = 1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PosBarrier20"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="PosBarrier20"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.847059, 0.560784, 0.109804, 1 )
+
+[node name="NegBarrier20" type="StaticBody2D" parent="."]
+position = Vector2( 538, 425 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="NegBarrier20"]
+scale = Vector2( 4, 0.5 )
+shape = SubResource( 26 )
+
+[node name="ColorRect" type="ColorRect" parent="NegBarrier20"]
+margin_left = -40.0
+margin_top = -5.0
+margin_right = 40.0
+margin_bottom = 5.0
+color = Color( 0.164706, 0.635294, 0.760784, 1 )
+
+[node name="PlayerHere" type="Node2D" parent="."]
+position = Vector2( 84, 172 )
+
+[node name="EnemyHere" type="Node2D" parent="."]
+position = Vector2( 359, 473 )
+
+[node name="GoalHere" type="Node2D" parent="."]
+position = Vector2( 40, 44 )
+
+[node name="FlagHere" type="Node2D" parent="."]
+position = Vector2( 896, 44 )

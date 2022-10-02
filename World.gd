@@ -14,17 +14,17 @@ var levels = [null, # no level for idx 0
 	preload("res://Level1.tscn"),
 	preload("res://Level2.tscn"),
 	preload("res://Level3.tscn"),
-	preload("res://Level4.tscn")
+	preload("res://Level4.tscn"),
+	#preload("res://Level1.tscn")
 ]
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Input.set_custom_mouse_cursor(circles)
-	if Data.level>len(levels):
+	if Data.level>len(levels)-1:
 		get_tree().change_scene("res://End.tscn")
 		return
 	
-	print(Data.level)
 	var barriersNode = levels[Data.level].instance()
 	var world_node = get_tree().get_root().get_node("World")
 	world_node.add_child(barriersNode)

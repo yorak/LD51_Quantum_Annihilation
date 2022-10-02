@@ -454,11 +454,12 @@ shape = SubResource( 77 )
 
 [node name="Core" type="AnimatedSprite" parent="Player"]
 frames = SubResource( 25 )
+frame = 1
 playing = true
 
 [node name="Field" type="AnimatedSprite" parent="Player"]
 frames = SubResource( 72 )
-frame = 8
+frame = 7
 playing = true
 
 [node name="Bounce" type="AudioStreamPlayer" parent="Player"]
@@ -477,12 +478,12 @@ shape = SubResource( 78 )
 
 [node name="Core" type="AnimatedSprite" parent="Monster"]
 frames = SubResource( 24 )
-frame = 2
+frame = 1
 playing = true
 
 [node name="Field" type="AnimatedSprite" parent="Monster"]
 frames = SubResource( 51 )
-frame = 11
+frame = 6
 playing = true
 
 [node name="PlayerSeenTimer" type="Timer" parent="Monster"]
